@@ -1,0 +1,1 @@
+{"model_name": "resnet50", "optimizer_name": "Adam", "num_epochs": 200, "num_cycles": 4, "lr_max": 0.15, "weighted_average": true}
