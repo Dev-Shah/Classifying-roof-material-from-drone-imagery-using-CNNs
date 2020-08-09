@@ -6,7 +6,7 @@ at the cost of training a single CNN. \
 • Performed a comparative study on different methods to ensemble these models including a simple average, weighted
 average and a gaussian similarity kernel. \
 • Achieved a log loss of 0.7594 achieving a rank of 72 among 1425 participants (Top 5%) as opposed to the benchmark of 2.01 using
-the pre-trained ResNet 50 architecture (challenge hosted on drivendata.org). 
+the pre-trained ResNet 50 architecture (challenge hosted on [drivendata.org](https://www.drivendata.org/competitions/58/disaster-response-roof-type/)). 
 
 Instructions: \
 run the shell script run.sh - ./run.sh snapshot (for snapshot ensembling) 
@@ -17,5 +17,7 @@ and can edit the parameters for snapshot ensembling in the snapshot.json \
 
 running the script will train the model according to the parameters in the json file, \
 save the models in the models folder and save the results in the results folder \
+
+The dataset in this repo is just a random sample of the original dataset (as it was of approx. 4 GB) \
 
 For more information see the reports pdf or ppt
