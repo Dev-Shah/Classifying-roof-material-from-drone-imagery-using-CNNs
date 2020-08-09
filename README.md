@@ -9,8 +9,8 @@ average and a gaussian similarity kernel. \
 the pre-trained ResNet 50 architecture (challenge hosted on drivendata.org). \
 
 Instructions: \
-run the shell script run.sh - .\run.sh snapshot (for snapshot ensembling) \ 
-                              .\run.sh basic (for basic model) \ 
+run the shell script run.sh - ./run.sh snapshot (for snapshot ensembling) \ 
+                              ./run.sh basic (for basic model) \ 
                               
 user can edit the parameters for basic model in the basic.json file \ 
 and can edit the parameters for snapshot ensembling in the snapshot.json \
