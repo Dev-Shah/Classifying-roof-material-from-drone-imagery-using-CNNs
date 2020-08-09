@@ -8,7 +8,7 @@ average and a gaussian similarity kernel. /
 • Achieved a log loss of 0.7594 achieving a rank of 72 among 1425 participants (Top 5%) as opposed to the benchmark of 2.01 using
 the pre-trained ResNet 50 architecture (challenge hosted on drivendata.org). /
 
-Instructions:
+Instructions: /
 run the shell script run.sh - ./run.sh snapshot (for snapshot ensembling) / 
                               ./run.sh basic (for basic model) / 
                               
