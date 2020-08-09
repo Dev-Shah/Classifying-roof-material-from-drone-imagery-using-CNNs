@@ -6,11 +6,12 @@ at the cost of training a single CNN. \
 • Performed a comparative study on different methods to ensemble these models including a simple average, weighted
 average and a gaussian similarity kernel. \
 • Achieved a log loss of 0.7594 achieving a rank of 72 among 1425 participants (Top 5%) as opposed to the benchmark of 2.01 using
-the pre-trained ResNet 50 architecture (challenge hosted on drivendata.org). \
+the pre-trained ResNet 50 architecture (challenge hosted on drivendata.org). 
 
 Instructions: \
-run the shell script run.sh - ./run.sh snapshot (for snapshot ensembling) \ 
-                              ./run.sh basic (for basic model) \ 
+run the shell script run.sh - ./run.sh snapshot (for snapshot ensembling) 
+
+                              ./run.sh basic (for basic model) 
                               
 user can edit the parameters for basic model in the basic.json file \ 
 and can edit the parameters for snapshot ensembling in the snapshot.json \
