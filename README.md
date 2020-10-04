@@ -1,6 +1,6 @@
 # Classifying roof material from drone imagery using CNNs with snapshot ensembling (PyTorch)
 
-# Instructions: \
+# Instructions:
 run the shell script run.sh - \
                               ./run.sh snapshot (for snapshot ensembling) \
                               ./run.sh basic (for basic model) 
