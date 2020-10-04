@@ -9,15 +9,15 @@ average and a gaussian similarity kernel. \
 the pre-trained ResNet 50 architecture (challenge hosted on [drivendata.org](https://www.drivendata.org/competitions/58/disaster-response-roof-type/)). 
 
 Instructions: \
-run the shell script run.sh - ./run.sh snapshot (for snapshot ensembling) 
+run the shell script run.sh - ./run.sh snapshot (for snapshot ensembling) \
                               ./run.sh basic (for basic model) 
                               
-user can edit the parameters for basic model in the basic.json file \ 
-and can edit the parameters for snapshot ensembling in the snapshot.json \
+user can edit the parameters for basic model in the basic.json file
+and can edit the parameters for snapshot ensembling in the snapshot.json
 
-running the script will train the model according to the parameters in the json file, \
-save the models in the models folder and save the results in the results folder \
+running the script will train the model according to the parameters in the json file,
+save the models in the models folder and save the results in the results folder
 
-The dataset in this repo is just a random sample of the original dataset (as it was of approx. 4 GB) \
+The dataset in this repo is just a random sample of the original dataset (as it was of approx. 4 GB)
 
 For more information see the reports pdf or ppt
