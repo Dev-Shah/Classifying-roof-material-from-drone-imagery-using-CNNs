@@ -1,6 +1,6 @@
 # Classifying roof material from drone imagery using CNNs with snapshot ensembling (PyTorch)
 
-Instructions: \
+# Instructions: \
 run the shell script run.sh - ./run.sh snapshot (for snapshot ensembling) \
                               ./run.sh basic (for basic model) 
                               
@@ -21,5 +21,5 @@ average and a gaussian similarity kernel. \
 • Achieved a log loss of 0.7594 achieving a rank of 72 among 1425 participants (Top 5%) as opposed to the benchmark of 2.01 using
 the pre-trained ResNet 50 architecture (challenge hosted on [drivendata.org](https://www.drivendata.org/competitions/58/disaster-response-roof-type/)). 
 
-For more information see the reports pdf or ppt
+# For more information see the [slides](https://drive.google.com/file/d/10aukzZ9qnsvIrmoYDvsvujC1Ye3tN6yY/view?usp=sharing) or [report](https://drive.google.com/file/d/1Vb7KCHIxwiQXArmUEVHl8bFlvChD5yYc/view?usp=sharing)
 
